@@ -1,0 +1,3 @@
+The optical properties of the scene is made up of 3 main parameters: IOR, Absorption coefficient and Scattering coefficient. The "glass balls" in my scene are spherical regions defined to have optical properties similar to typical glass in reality, whose IOR is 1.5 with minimal absorption and scattering coefficients (equal to 0.001).
+
+Currently, the resulting quantity calculated in my code is irradiance, not radiance. The code tracks and accumulates how much light energy hits various points in a 3D space but does not include the directionality of that light
